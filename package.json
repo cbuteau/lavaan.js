@@ -1,0 +1,29 @@
+{
+  "name": "lavaan.js",
+  "version": "1.0.0",
+  "description": "A JavaScript implementation of the Lavaan library for R.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parser": "node .\\node_modules\\jison\\lib\\cli.js ./model/grammar.jison -o ./model/compute.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbuteau/lavaan.js.git"
+  },
+  "keywords": [
+    "lavaan"
+  ],
+  "author": "Christopher W Buteau <cbuteau@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbuteau/lavaan.js/issues"
+  },
+  "homepage": "https://github.com/cbuteau/lavaan.js#readme",
+  "devDependencies": {
+    "jison": "0.4.18"
+  },
+  "dependencies": {
+    "simple-statistics": "7.0.5"
+  }
+}
