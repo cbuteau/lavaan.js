@@ -17,3 +17,10 @@ Then move on to execution.
 ### 10/24/2019
 
 Now thinking we should just test CFA with MODEL objects and DATA and swicth back to MODEL parsing later.
+
+
+### 10/26/2019
+
+Write a test for this tutorial on CFA then bring the code to it passing.
+
+http://lavaan.ugent.be/tutorial/cfa.html

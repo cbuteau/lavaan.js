@@ -1,4 +1,6 @@
 
+var fs = require('fs');
+
 module.exports = {
   sem: function(model) {
 
@@ -17,5 +19,8 @@ module.exports = {
   },
   lavNames: function() {
 
+  },
+  loadModelFile: function(fileName) {
+    
   }
 };
