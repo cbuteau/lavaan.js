@@ -128,7 +128,7 @@ module.exports = {
     var start = reader.nextString(4);
     if (start === 'RDX2') {
       console.log('We have a RData file lets parse it');
-      while (reader.tell() < uncompressed.length) {
+      while (reader.tell() - uncompressed.length >= 64) {
         var struct = buildStruct(reader);
       }
     }
