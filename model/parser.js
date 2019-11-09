@@ -25,6 +25,18 @@ Parser.prototype = {
         var expression = parts[1].trim();
         common.appendUnique(that._data.vars, varname);
       }
+      if (common.contains(line, '~')) {
+        var parts = line.split('~');
+        var varname = parts[0].trim();
+        var expression = parts[1].trim();
+        common.appendUnique(that._data.vars, varname);
+      }
+      if (common.contains(line, '~~')) {
+        var parts = line.split('~~');
+        var varname = parts[0].trim();
+        var expression = parts[1].trim();
+        common.appendUnique(that._data.vars, varname);
+      }
     });
   }
 }

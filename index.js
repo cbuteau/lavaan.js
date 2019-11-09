@@ -2,7 +2,7 @@
 var fs = require('fs');
 
 module.exports = {
-  sem: function(model) {
+  sem: function(model, data) {
 
   },
   cfa: function(model, data) {
@@ -21,6 +21,6 @@ module.exports = {
 
   },
   loadModelFile: function(fileName) {
-    
+
   }
 };
